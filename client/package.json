@@ -1,0 +1,27 @@
+{
+  "name": "imq-rpc-exampple-client",
+  "version": "0.0.1",
+  "description": "IMQ-PRC service example service",
+  "keywords": [
+    "imq-rpc"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "static": "npm run generate && npm run build && node static.js",
+    "runtime": "npm run build && node runtime.js",
+    "generate": "imq-cli client generate Hello"
+  },
+  "author": "Serhii Fesiura <peinguin@gmail.com>",
+  "homepage": "https://imqueue.com/",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.4.6",
+    "imq-rpc": "^1.1.2",
+    "imq-cli": "^1.0.0",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {},
+  "typescript": {
+    "definitions": "index.d.ts"
+  }
+}
