@@ -9,15 +9,14 @@
     "build": "tsc",
     "static": "npm run generate && npm run build && node static.js",
     "runtime": "npm run build && node runtime.js",
-    "generate": "imq-cli client generate Hello"
+    "generate": "imq client generate Hello"
   },
   "author": "Serhii Fesiura <peinguin@gmail.com>",
   "homepage": "https://imqueue.com/",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^9.4.6",
-    "imq-rpc": "^1.1.2",
-    "imq-cli": "^1.0.0-dev",
+    "imq-cli": "^1.0.0-dev1",
     "typescript": "^2.7.2"
   },
   "devDependencies": {},
