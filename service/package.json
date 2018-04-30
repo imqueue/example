@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^9.4.6",
-    "imq-rpc": "^1.1.2",
+    "imq-rpc": "^1.1.6",
     "typescript": "^2.7.2"
   },
   "devDependencies": {},
