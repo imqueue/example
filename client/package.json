@@ -9,7 +9,7 @@
     "build": "tsc",
     "static": "npm run generate && npm run build && node static.js",
     "runtime": "npm run build && node runtime.js",
-    "generate": "imq client generate Hello"
+    "generate": "imq client generate Hello -o"
   },
   "author": "Serhii Fesiura <peinguin@gmail.com>",
   "homepage": "https://imqueue.com/",
