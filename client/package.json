@@ -15,9 +15,10 @@
   "homepage": "https://imqueue.com/",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^9.4.6",
-    "imq-cli": "^1.0.0-dev2",
-    "typescript": "^2.7.2"
+    "@imqueue/cli": "^1.0.2",
+    "@imqueue/rpc": "^1.2.1",
+    "@types/node": "^10.3.3",
+    "typescript": "^2.9.2"
   },
   "devDependencies": {},
   "typescript": {

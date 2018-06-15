@@ -1,4 +1,3 @@
-
 import { hello as space } from './Hello';
 
 const hello = new space.HelloClient();

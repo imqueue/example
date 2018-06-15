@@ -1,5 +1,4 @@
-
-import { IMQService, expose } from 'imq-rpc';
+import { IMQService, expose } from '@imqueue/rpc';
 
 class Hello extends IMQService {
 

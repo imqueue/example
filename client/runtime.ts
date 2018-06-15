@@ -1,4 +1,4 @@
-import { IMQClient } from 'imq-rpc';
+import { IMQClient } from '@imqueue/rpc';
 
 IMQClient.create('Hello', { write: false }).then(async (hello: any) => {
     try {

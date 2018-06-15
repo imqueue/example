@@ -1,4 +1,3 @@
-
 # IMQ-RPC examples
 
 ## Service
@@ -15,4 +14,3 @@
 # npm run static
 # npm run runtime
 ~~~
-
