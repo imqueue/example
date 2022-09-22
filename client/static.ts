@@ -1,12 +1,16 @@
 import { hello as space } from './Hello';
 
-const hello = new space.HelloClient();
-hello.start().then(async () => {
-    const syncResp = await hello.hello('Sync');
-    console.log(syncResp);
+const client = new space.HelloClient();
 
-    const asyncResp = await hello.asyncHello('Async');
-    console.log(asyncResp);
-	await hello.destroy();
+client.start().then(async () => {
+    while (true) {
+        const syncResp = await client.hello('Sync');
+        console.log(syncResp);
+
+        const asyncResp = await client.asyncHello('Async');
+        console.log(asyncResp);
+
+        await new Promise(resolve => setTimeout(resolve, 1000));
+    }
 });
 
