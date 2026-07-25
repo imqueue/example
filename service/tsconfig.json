@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "node18",
     "declaration": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "moduleResolution": "node",
     "sourceMap": true,
     "inlineSources": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "target": "es2017",
+    "target": "es2022",
     "lib": [
-      "dom",
-      "es2017"
-    ]
+      "es2022"
+    ],
+    "esModuleInterop": true
   }
 }

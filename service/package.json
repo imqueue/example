@@ -1,6 +1,7 @@
 {
   "name": "imq-rpc-exampple-service",
   "version": "0.0.1",
+  "type": "module",
   "description": "IMQ-PRC service example service",
   "keywords": [
     "imq-rpc"
@@ -14,9 +15,9 @@
   "homepage": "https://imqueue.com/",
   "license": "ISC",
   "dependencies": {
-    "@imqueue/rpc": "^1.13.11",
-    "@types/node": "^18.7.18",
-    "typescript": "^4.8.3"
+    "@imqueue/rpc": "^3.4.1",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
   },
   "typescript": {
     "definitions": "index.d.ts"

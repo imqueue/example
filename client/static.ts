@@ -1,4 +1,4 @@
-import { hello as space } from './Hello';
+import { hello as space } from './Hello.js';
 
 const client = new space.HelloClient();
 
